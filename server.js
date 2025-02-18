@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 // Web push-nycklar (skapa egna på https://web-push-codelab.glitch.me/)
 const publicVapidKey = "BP_MZUvQSXNv66oYHFewNxqYjOMtIOP6n90E7tWw_fzgY2hwiSbVdEOR7GWAeBnhAr7Vz0TB6QHGfqmpVmTtD1Q";
-const privateVapidKey = "DIN_PRIVATE_KEY";
+const privateVapidKey = "J-XSTRRtt86bLsGMaq2GPB7rJyL4YRfzFvLQWStfkEQ";
 webpush.setVapidDetails("mailto:Noah.kristensson.palm@gmail.com", publicVapidKey, privateVapidKey);
 
 // Lista för push-prenumeranter
